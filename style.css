@@ -1,0 +1,78 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+ }
+body{
+    background: #67b593;
+}
+.app{
+    background: #712525;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.app h1{
+    align-content: center start;
+    font-weight: 25px;
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+    
+}
+.myquiz{
+    padding: 20px 0;
+}
+
+.myquiz h2{
+    align-content: center start;
+    font-weight: 20px;
+    color: #808080;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+}
+
+.bQA {
+    padding: 10px 0;
+    color: #67b593;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    background-color: blanchedalmond;
+    border-bottom: 2px solid #000000;
+    cursor: pointer;
+    transition:all 0.3s;
+    margin: 5px;
+}
+
+.bQA:hover{
+    background-color: #808080
+}
+
+.correct{
+    background: #4cff00;
+}
+.incorrect{
+    background:  #ff0000;
+}
+
+.nextbQA {
+    padding: 10px 0;
+    color: #000000cc;
+    text-align:center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 25%;
+    display:block;
+    background-color: #4cff00;
+    border-bottom: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 30px;
+    display:none; // done display it we will display with java script after option is chosen
+}
+
